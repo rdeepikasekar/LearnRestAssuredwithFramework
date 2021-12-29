@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-06T22:03:24Z" name="Default suite" finished-at="2021-12-06T22:03:24Z" duration-ms="40">
+    <groups>
+    </groups>
+    <test started-at="2021-12-06T22:03:24Z" name="Default test" finished-at="2021-12-06T22:03:24Z" duration-ms="40">
+      <class name="APITestingFramework.testcases.CreateCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:APITestingFramework.testcases.CreateCustomerTest@c65a5ef]" started-at="2021-12-06T22:03:23Z" name="setUp" finished-at="2021-12-06T22:03:24Z" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateCustomerAPIwithInvalidSecretKey(java.util.HashMap)[pri:0, instance:APITestingFramework.testcases.CreateCustomerTest@c65a5ef]" started-at="2021-12-06T22:03:24Z" name="validateCreateCustomerAPIwithInvalidSecretKey" data-provider="data" finished-at="2021-12-06T22:03:24Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{emailIn=email1@gmail.comIn, descriptionIn=description1In, nameIn=name1In}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIwithInvalidSecretKey -->
+        <test-method signature="validateCreateCustomerAPIwithInvalidSecretKey(java.util.HashMap)[pri:0, instance:APITestingFramework.testcases.CreateCustomerTest@c65a5ef]" started-at="2021-12-06T22:03:24Z" name="validateCreateCustomerAPIwithInvalidSecretKey" data-provider="data" finished-at="2021-12-06T22:03:24Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{emailIn=email2@gmail.comIn, descriptionIn=description2In, nameIn=name2In}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIwithInvalidSecretKey -->
+        <test-method signature="validateCreateCustomerAPIwithValidSecretKey(java.util.HashMap)[pri:0, instance:APITestingFramework.testcases.CreateCustomerTest@c65a5ef]" started-at="2021-12-06T22:03:24Z" name="validateCreateCustomerAPIwithValidSecretKey" data-provider="data" finished-at="2021-12-06T22:03:24Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=name1, description=description1, email=email1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIwithValidSecretKey -->
+        <test-method signature="validateCreateCustomerAPIwithValidSecretKey(java.util.HashMap)[pri:0, instance:APITestingFramework.testcases.CreateCustomerTest@c65a5ef]" started-at="2021-12-06T22:03:24Z" name="validateCreateCustomerAPIwithValidSecretKey" data-provider="data" finished-at="2021-12-06T22:03:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=name2, description=description2, email=email2@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIwithValidSecretKey -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:APITestingFramework.testcases.CreateCustomerTest@c65a5ef]" started-at="2021-12-06T22:03:24Z" name="tearDown" finished-at="2021-12-06T22:03:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- APITestingFramework.testcases.CreateCustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
